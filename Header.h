@@ -6,8 +6,8 @@
 #include <stdlib.h>
 #include <windows.h>
 
-void two_arrays(float num, int uah[], int pen[]);
+void two_arrays(double num, int uah[], int pen[]);
 
-void rename(int num, const int arr[]);
+void rename(double num, const int arr[]);
 
 #endif

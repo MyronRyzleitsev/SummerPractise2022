@@ -11,16 +11,16 @@
 
 int main() {
 
-	setlocale(LC_ALL, "rus");
+	setlocale(LC_ALL, "");
 
 	int pen[10] = { 0 };
 	int uah[10] = { 0 };
-	float num;
+	double num;
 
 	while (true) {
 
 		printf("Введiть число для переводу\n");
-		scanf_s("%f", &num);
+		scanf_s("%lf", &num);
 
 		if (num < 0) {
 			printf("Ви ввели некорректне число\n");
